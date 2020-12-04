@@ -15,6 +15,7 @@ public class MoveForward : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Moves the steak and dogs forward in the direction they're facing
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }
